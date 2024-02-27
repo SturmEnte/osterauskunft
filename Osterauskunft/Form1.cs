@@ -21,6 +21,13 @@ namespace Osterauskunft
         {
             int[] result = Osterrechner.calculateEeasterDate(int.Parse(yearInput.Text));
 
+            if (result[0] == -1)
+            {
+                dayOutput.Text = "Fehler beim";
+                monthOutput.Text = "berechnen :(";
+                return;
+            }
+
             dayOutput.Text = result[0].ToString();
 
             if (result[1] == 3)
@@ -31,10 +38,7 @@ namespace Osterauskunft
             {
                 monthOutput.Text = "April";
             }
-            else
-            {
-                monthOutput.Text = "Unknown";
-            }
+            
         }
 
         private void Geben_Sie_ein_Jahr_ein_Click(object sender, EventArgs e)
