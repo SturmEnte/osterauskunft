@@ -1,6 +1,10 @@
 # Ignore compiled binaries and build artifacts
 [Oo]bj/
-[Bb]in/
+obj/**/*
+Obj/**/*
+[Bb]in/**/*
+bin/**/*
+Bin/**/*
 *.user
 *.suo
 *.[Cc]ache
