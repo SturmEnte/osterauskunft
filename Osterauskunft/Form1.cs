@@ -7,16 +7,6 @@ namespace Osterauskunft
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void calcButton_Click(object sender, EventArgs e)
         {
             int[] result = Osterrechner.calculateEeasterDate(int.Parse(yearInput.Text));
@@ -39,21 +29,6 @@ namespace Osterauskunft
                 monthOutput.Text = "April";
             }
             
-        }
-
-        private void Geben_Sie_ein_Jahr_ein_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

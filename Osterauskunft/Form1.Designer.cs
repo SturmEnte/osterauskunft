@@ -49,7 +49,6 @@
             Osterauskunft.TabIndex = 0;
             Osterauskunft.Text = "Osterauskunft";
             Osterauskunft.TextAlign = ContentAlignment.TopCenter;
-            Osterauskunft.Click += label1_Click;
             // 
             // Geben_Sie_ein_Jahr_ein
             // 
@@ -62,7 +61,6 @@
             Geben_Sie_ein_Jahr_ein.Size = new Size(233, 23);
             Geben_Sie_ein_Jahr_ein.TabIndex = 1;
             Geben_Sie_ein_Jahr_ein.Text = "Geben Sie ein Jahr ein.";
-            Geben_Sie_ein_Jahr_ein.Click += Geben_Sie_ein_Jahr_ein_Click;
             // 
             // easterEggPicture
             // 
@@ -74,7 +72,6 @@
             easterEggPicture.SizeMode = PictureBoxSizeMode.Zoom;
             easterEggPicture.TabIndex = 2;
             easterEggPicture.TabStop = false;
-            easterEggPicture.Click += pictureBox1_Click;
             // 
             // yearInput
             // 
@@ -108,7 +105,6 @@
             dayOutput.TabIndex = 5;
             dayOutput.Text = "...";
             dayOutput.TextAlign = ContentAlignment.MiddleCenter;
-            dayOutput.Click += label4_Click;
             // 
             // calcButton
             // 
